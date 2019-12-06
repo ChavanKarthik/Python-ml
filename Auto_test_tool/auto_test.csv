@@ -1,0 +1,5 @@
+Weight,Height,expected_result
+85    ,2     ,"Weight: 85Kg, Height: 2mtr and BMI = 21.25"
+86    ,2     ,"Weight: 8586Kg, Height: 22mtr and BMI = 18.45545"
+87    ,2     ,"Weight: 858687Kg, Height: 222mtr and BMI = 17.4232408084"
+88    ,2     ,"Weight: 85868788Kg, Height: 2222mtr and BMI = 17.3919077776"

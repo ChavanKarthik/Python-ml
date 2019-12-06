@@ -1,0 +1,148 @@
+Apache Spark 2.x – Cluster Computing Framework
+
+Course description: Today’s application are build in the Microservices Architecture. Having a lot of Microservices that needs to communicate with each other can be problematic as they quickly become tight coupled. Apache Kafka allows us to create services that are loosely coupled and operate in the event driven way.
+
+Overview to Spark : 
+
+Learning Objectives – In this module, you will learn cluster computing framework and learn about spark architecture in comparison with Hadoop Eco-system.
+
+Introduction to Spark
+Features of Spark
+Flow of iterative operations on MapReduce vs Spark
+Exploring Spark Eco-system
+Spark Architecture
+Spark Components
+RDD’s Introduction
+Partitions in Spark
+Characteristics of Partitions
+Data Sharing in Spark
+Deeper look of Spark RDD’s with partitions
+RDD Graphs
+Dataset Level View
+Partition Level View
+Lineage Graphs
+Lineage Graphs dependencies
+Narrow dependency
+Wide dependency
+Spark stages
+Hadoop Eco-system vs Spark Eco-system
+Learning Objectives – In this module, you will learn one of the fundamental building blocks of Spark – RDDs and related manipulations for implementing business logics (Transformations, Actions and Functions performed on RDD).
+
+Learning Spark core : RDD's 
+
+Setting up Spark Development environment on Windows
+Launching Spark Shell
+Implicit Objects in Spark Shell
+SparkSession i.e Spark 2.x entry point
+Understanding Spark UI
+RDD Creations
+Creating RDD with external files
+Creating RDD with existing collections
+RDD Operations
+Transformations
+Actions
+RDD Actions
+count()
+first()
+take(int)
+saveAsTextFile(path: String)
+reduce(func)
+collect(func)
+RDD Transformations
+map(func)
+foreach(func)
+filter(func)
+coalesce(func)
+Passing functions to Spark High Order Functions
+Anonymous function
+Passing Named function
+Static singleton function
+Chaining Transformations and Actions in Spark
+Building Spark Project using Maven
+RDD Caching and Persistence
+Learning Objectives – In this module you will understand about quartz job scheduler
+
+Deploying Spark in Production –
+
+What is Job Scheduling Framework
+Role of Scheduling Framework in Hadoop
+What is Quartz Job Scheduling Library
+Using Quartz
+Exploring Quartz API
+Jobs
+Triggers
+Scheduling Hive Jobs using Quartz scheduler
+Leeee
+
+Learning Objectives – In this module, you will learn advance RDD’s
+
+Deeper into Spark Core –
+
+RDD Extensions
+DoubleRDD
+PairRDD
+CoGroupedRDD
+Aggregate functions
+groupByKey function
+reduceyByKey function
+ 
+
+Learning Objectives – In this module, you will learn about Spark SQL which is used to process structured data with SQL queries. You will learn about data-frames and datasets in Spark SQL and perform SQL operations on data-frames.
+
+Spark SQL - DataFrame + DataSet API : 
+
+Abstractions in Spark 2.x
+Introduction to SparkSQL
+Features of Spark SQL
+Overview of DataFrames
+Understanding org.apache.spark.sql.DataFrameReader class
+Instantiating org.apache.spark.sql.DataFrameReader using SparkSession – [Hands-on]
+Creating a DataFrame from JSON file – [Hands-on]
+Creating a DataFrame from CSV file – [Hands-on]
+Understanding and using inferschema
+Creating a custom schema and querying
+Understanding DataFrame explain() function
+Registering DataFrame as a Table
+Operations supported by DataFrames
+Converting RDD to DataFrame
+[Use case] Analysing Employee dataset
+Exploring Pivots
+Join Operations in DataFrame
+Learning Objectives – In this module, you will learn Spark streaming which is fault-tolerant streaming applications. You will learn about DStreams and various Transformations performed on it. You will get to know about main streaming operators, Sliding Window Operators and Stateful Operators.
+
+Spark Streaming : 
+
+Understanding Data Streaming
+Overview of Spark Streaming
+Spark Streaming Use cases
+Working of Spark Streaming
+Understanding DStreams / Discretized Streams
+Transformations
+Output operations
+Spark Streaming –  Entry point of Spark applications
+Input Streams / Receiver
+Real Time Streaming using socketTextStream – [Hands-on]
+Exploring special transformations on DStream API
+Window Operations
+UpdateStateByKey
+Window Operations
+Block Interval
+E-Commerce Data Analysis – [Real-time industry use case]
+
+Use case Description :
+
+E -Commerce company wants to build a real time analytics dash board to optimize its inventory and operations .
+This Dashboard should have the information of how many products are getting purchased , shipped, derived and cancelled every minute.
+This Dash board will be very useful for operational intelligence
+Learning Objectives – In this module, you will learn Structured Streaming which is a scalable and fault-tolerant stream processing engine built on the Spark SQL engine.
+
+Structured Streaming : 
+
+Drawbacks of DStream API
+Understanding Structured Streaming
+Input Source
+Ouput Modes
+Handling Event-time and Late Data
+Window Operations on Event Time
+
+
